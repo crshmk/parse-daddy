@@ -13,28 +13,28 @@ Always returns an object or array
 
 Parses JSON normally 
 ```javascript
-parseDaddy('"{ "one": 1 }"')
+unstring('"{ "one": 1 }"')
 // { one: 1 }
 ```
 
 Returns an empty object for malformed objects and unexpected types 
 ```javascript
 
-parseDaddy('"{ key: 'value' }"')
+unstring('"{ key: 'value' }"')
 // {} 
-parseDaddy(null)
+unstring(null)
 // {} 
-parseDaddy(undefined)
+unstring(undefined)
 // {} 
-parseDaddy(true)
+unstring(true)
 // {} 
-parseDaddy(42)
+unstring(42)
 // {} 
 ```
 
 Returns an empty array when a malformed array is attempted 
 
 ```javascript 
-parseDaddy('[1, 2, 3')
+unstring('[1, 2, 3')
 // []
 ```

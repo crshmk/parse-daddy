@@ -1,5 +1,5 @@
 {
-  "name": "parse-daddy",
+  "name": "unstring",
   "version": "0.0.1",
   "description": "Effective JSON parser",
   "main": "dist/index.js",

@@ -1,3 +1,3 @@
-import parseDaddy from './parseDaddy'
+import unstring from './unstring'
 
-module.exports = parseDaddy
+module.exports = unstring

@@ -12,4 +12,4 @@ interface JSONObject {
 
 interface JSONArray extends Array<JSONValue> {}
 
-type ParseJsonReturnType = JSONArray | JSONObject
+type ParsedObjectOrArray = JSONArray | JSONObject

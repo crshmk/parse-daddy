@@ -23,7 +23,7 @@ const isObjectOrArray = (value) => typeof value === 'object' && value !== null;
  * @param json
  * @returns object or array
  */
-const parseDaddy = json => {
+const unstring = json => {
     let parsed = {};
     try {
         parsed = JSON.parse(json);
@@ -37,4 +37,4 @@ const parseDaddy = json => {
     }
 };
 
-module.exports = parseDaddy;
+module.exports = unstring;

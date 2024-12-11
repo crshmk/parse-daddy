@@ -9,5 +9,5 @@
  * @param json
  * @returns object or array
  */
-declare const parseDaddy: (json: string) => ParseJsonReturnType;
-export default parseDaddy;
+declare const unstring: (json: string) => ParseJsonReturnType;
+export default unstring;

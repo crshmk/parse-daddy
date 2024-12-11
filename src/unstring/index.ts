@@ -11,9 +11,9 @@ import isObjectOrArray from './isObjectOrArray'
  * @param json 
  * @returns object or array
  */
-const parseDaddy: (json: string) => ParseJsonReturnType = json => {
+const unstring: (json: string) => ParsedObjectOrArray = json => {
 
-  let parsed: ParseJsonReturnType = {}
+  let parsed: ParsedObjectOrArray = {}
 
   try {
     parsed = JSON.parse(json)
@@ -26,4 +26,4 @@ const parseDaddy: (json: string) => ParseJsonReturnType = json => {
   }
 }
 
-export default parseDaddy 
+export default unstring 
