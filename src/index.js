@@ -1,1 +1,3 @@
-export { default as add } from './add'
+import parseDaddy from './parseDaddy'
+
+module.exports = parseDaddy

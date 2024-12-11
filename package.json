@@ -1,8 +1,9 @@
 {
-  "name": "rollup-boilerplate",
-  "version": "1.0.0",
-  "description": "basic rollup setup",
-  "main": "./dist/utils.min.js",
+  "name": "parse-daddy",
+  "version": "0.0.1",
+  "description": "Effective JSON parser",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",  
   "type": "commonjs",
   "scripts": {
     "build": "rollup -c",
@@ -14,11 +15,18 @@
   "author": "Chris Hammock",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-env": "^7.20.2",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "babel-jest": "^29.7.0",
     "jest": "^29.4.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^4.0.0"
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
   }
 }
