@@ -8,7 +8,7 @@ import { uglify } from 'rollup-plugin-uglify'
 export default {
     input: './src/index.js',
     output: {
-        file: './dist/parseDaddy.js',
+        file: './dist/index.js',
         format: 'cjs',
         name: 'bundle',
         globals: {
