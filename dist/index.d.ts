@@ -9,5 +9,5 @@
  * @param json
  * @returns object or array
  */
-declare const unstring: (json: string) => ParseJsonReturnType;
+declare const unstring: (json: string) => ParsedObjectOrArray;
 export default unstring;

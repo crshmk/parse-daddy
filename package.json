@@ -5,12 +5,15 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",  
   "type": "commonjs",
+  "repository": "crshmk/unstring",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
   },
   "keywords": [
-    "rollup"
+    "json",
+    "parse",
+    "pure"
   ],
   "author": "Chris Hammock",
   "license": "ISC",
